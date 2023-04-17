@@ -1,0 +1,54 @@
+<!DOCTYPE html
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Birthday message</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+          
+input{
+    display: inline;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Happy Birthday Message creator</h1>
+        <form>
+            <div >
+                <label for="message" style="margin-right: 60px;">Message? </label>
+                <input style="margin-left: 20px;" id="message" name="message" type="text"></input>
+            </div>
+            <br>
+          <div>
+                <label for="email" style="margin-right: 45px;">Email Address: </label>
+                <input id="email" name="email" type="email" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)* "></input>
+          </div>
+          <br>
+          <div>
+                <label for="date" style="margin-right: 56px;">Date to send? </label>
+                <input id="date" name="date" type="date"></input>
+          </div>
+          <br>
+          <div>
+             <label for="color" style="margin-right: 45px;">Message color:</label>
+              <input type="color" id="color" name="color"/>
+            </div>
+            <br>
+              <div>
+                <label for="blinks" style="margin-right: 20px;">Number of Blinks?</label>
+              <input value="0" min="0" max="10" type="number" id="blinks" name="blinks"/>
+              </div>
+              <br>
+              <div style="display: flex;align-items: center;">
+                <label style="margin-right: 50px;">Music Volume</label>
+                <input type="range" min="0" max="50" step="0.1" value="20" id="volumeSlider">
+              </div>
+              <br>
+            <button type="submit">Send Birthday Message!</button>
+          </form>
+          
+    </body>
+</html>
