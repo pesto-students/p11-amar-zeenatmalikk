@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #141414;
+  color: #fafafa;
+}
+.links a:nth-child(1){
+    margin-right: 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 80px;
+}
+.navbar p{
+    font-size: 23px;
+    font-weight: 600;
+}
+.navbar span{
+    color: #abf129;
+}
+.mail, .number {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btmBorder{
+    border-bottom: 1px solid #615e5e33;
+}
+header{
+    margin: 20px 80px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 93px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+header h1:last-child{
+    font-size: 93px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    
+}
+.code{
+    display: flex;
+    align-items: center;
+}
+.codeBorder{
+    border: 1px solid #fafafa;
+    display: flex;align-items: center;justify-content: center;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin-right: 30px;
+}
+.cvDownload{
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.contactBtn{
+    padding: 10px 30px;
+    font-size: 30px;
+    border: 1px solid #fafafa;
+    border-radius: 30px;
+    margin-left: 30px;
+}
